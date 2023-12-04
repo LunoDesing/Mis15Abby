@@ -848,24 +848,6 @@ body{
     line-height: 1.8;
   }
 
-  .button__cta{
-    display: inline;
-    background-color: #bbcaef;
-    border: none;
-    padding: 10px 5em;
-    margin: 0 auto 50px;
-    cursor: pointer;
-    border-radius: .7em;
-    font-weight: 500;
-    font-family: var(--font-principal);
-    transition: transform 100ms;
-  }
-  .button__cta:hover{
-    background-color: #2695da;
-    color: #fff;
-    transform: scale(1.2);
-  }
-
 
   /* ------------------------album_digital-------------------------------- */
 
