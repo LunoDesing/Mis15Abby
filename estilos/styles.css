@@ -818,6 +818,19 @@ body{
     border: none;
     border: 1px solid var(--color-titulos);
   }
+  .label{
+    font-family: var(--font-principal);
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--color-titulos);
+  }
+  .form__cta{
+    width: 70%;
+    height: 2em;
+    margin-bottom: 2em;
+    font-family: inherit;
+    font-weight: bold;
+  }
   .playlist_animated{
     margin: 0 auto 50px;
     width: 70%;
