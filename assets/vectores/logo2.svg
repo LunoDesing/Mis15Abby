@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.4 172.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e24292;
+        font-family: Belmonte, Belmonte;
+        font-size: 25.37px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #f283c3;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #f283c3;
+        font-family: ElenaDemoFontRegular, 'Elena Demo Font';
+        font-size: 93.15px;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(0 129.56)"><tspan x="0" y="0">Mis 15 Años</tspan></text>
+  <path class="cls-2" d="M399.37,80.03s7.43-4.57,11.14,0,12.57-1.02,12.57-1.02"/>
+  <text class="cls-1" transform="translate(19.19 24.23)"><tspan x="0" y="0">La noche de ...</tspan></text>
+</svg>

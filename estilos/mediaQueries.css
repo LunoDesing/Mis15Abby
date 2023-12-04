@@ -1,0 +1,108 @@
+@media (min-width:400px){
+
+    .preview-box .image-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+      }
+}
+@media (min-width:500px){
+    .preview-box .image-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+      }
+      .dresscode__note{
+        font-size: 1.7rem;
+      }
+}
+@media (min-width:800px){
+  .date__title{
+    font-family: var(--font-title);
+    font-size: 14rem;
+    margin: 0;
+    text-align: center;
+  }
+  .date__subtitle{
+    font-size: 4rem;
+  }
+  .donde__subtitle{
+      padding: 0 3em 0;
+      font-size: 1.2rem;
+  }
+  .formulario{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
+    border-radius: 20px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+    gap: 15px;
+  }
+  .nav{
+    --state-menu: translate(0);
+    --state-open: scale(1);
+    --state-close: scale(0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+}
+  .nav__open{
+   display: none;
+}
+.nav__close{
+    display: none;
+}
+.nav__items{
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+  flex-direction: unset;
+  justify-content: unset;
+  text-align: unset;
+  position: unset;
+  height: unset;
+  width: unset;
+  background-color: unset;
+  top: unset;
+  padding: unset;
+  right: unset;
+  left: unset;
+  border-radius: unset;
+  margin: unset;
+  transform: unset;
+  transition: unset;
+}
+.nav__link{
+  color: #fff;
+}
+.itinerario__title{
+  font-size: 8rem;
+}
+.itinerario__subtitle span{
+  font-size: 5rem;
+}
+.itinerario__img{
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: 80px auto;
+}
+
+}
+@media (min-width:1000px){
+    .preview-box .image-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+
+      }
+}
+

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/mediaQueries.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+  <body>
+
+
+    <!-- <section class="dialog">
+      <dialog open>
+        <img class="dialog__alert" src="assets/vectores/alerta.svg" alt="">
+        <h3 class="dialogo__text">Aviso importante de Abby</h3>
+        <h2 class="dialogo__text2" >Recordá que tenés hasta el 15 de Diciembre para confirmar tu presencia</h2>
+        <hr>
+        <form method="dialog">
+          <button class="cerrar">cerrar</button>
+        </form>
+      </dialog>
+      </section> -->
+
+    <header class="hero">
+        
+      <nav class="nav container" id="nav">
+          <img src="assets/vectores/logo.svg" class="nav__logo">
+      
+
+      <div class="nav__icons">
+          <a href="#nav">
+              <img src="assets/vectores/hamburguesa.svg" class="nav__open">
+          </a>
+          <a href="#">
+              <img src="assets/vectores/cruz.svg" class="nav__close">
+          </a>
+      </div>
+          
+      <ul class="nav__items">
+        <li class="nav__item">
+          <a href="#donde" class="nav__link">Donde</a>
+      </li>
+
+      <li class="nav__item">
+        <a href="#dresscode" class="nav__link">Dresscode</a>
+    </li>
+          <li class="nav__item">
+              <a href="#regalos" class="nav__link">Regalos</a>
+          </li>
+          <li class="nav__item">
+              <a href="#confirmar" class="nav__link">Confirmar</a>
+          </li>
+          <li class="nav__item">
+              <a href="#album" class="nav__link">Album</a>
+          </li>
+      </ul>        
+
+  </nav>
+<section class="waves">
+<div class="wave wave1"></div>
+<div class="wave wave2"></div>
+<div class="wave wave3"></div>
+</section>
+
+</header>
+
+<main>
+<section class="music">
+  <audio id="background-music" autoplay loop>
+      <source src="assets/musica.mp3" type="audio/mpeg">
+    </audio>
+    <button id="pause-button">
+      <img src="assets/icons8-osadía.gif" alt="">
+    </button>
+</section>
+
+<section class="date container">
+  <div class="date__vectors">
+    <img class="date__complementos" src="assets/vectores/complemento.svg">
+  <img class="date__tiara" src="assets/tiara.png">
+  <img class="date__complementos" src="assets/vectores/complementoright.svg">
+</div>
+    <div class="nameandvectors">
+      <img src="assets/vectores/complementoname.svg" class="imgname">
+      <div class="name">
+        <h3 class="date__title">Abby</h3>
+        <h4 class="date__subtitle">Mis 15 Años</h4>
+      </div>
+      <img src="assets/vectores/complementoname2.svg" class="imgname">
+
+    </div>
+ 
+
+</section>
+
+<section class="temporizador container">
+  <h3 class="temporizador__title">Falta muy poquito</h3>
+    <div class="timer">
+      <div class="timer-item">
+        <p class="timer-value" id="days">0</p>
+        <p class="timer-label">Días</p>
+      </div>
+      <div class="timer-item">
+        <p class="timer-value" id="hours">0</p>
+        <p class="timer-label">Horas</p>
+      </div>
+      <div class="timer-item">
+        <p class="timer-value" id="minutes">0</p>
+        <p class="timer-label">Minutos</p>
+      </div>
+      <div class="timer-item">
+        <p class="timer-value" id="seconds">0</p>
+        <p class="timer-label">Segundos</p>
+      </div>
+    </div>
+</section>
+
+<secton class="frase">
+  <h3 class="regalos__frase">A todos ustedes que estuvieron siempre a mi lado, que llenaron de felicidad mis días y que tornaron aquellos instantes de tristeza en alegrías.   
+    A ustedes que formaron parte de tantos sueños e ilusiones...    
+    Quiero invitarlos a compartir la magia de este momento que será único y sin duda, inolvidable... <br>
+    </h3>
+</secton>
+
+<section class="donde" id="donde">
+
+  <div class="donde__lugar">
+  <h3 class="donde__text">Misa</h3>
+  <article class="donde__container">
+    <h4 class="donde__subtitle">Te espero el día 16 de Diciembre del 2023 a hs 20:00 en la Iglesia Catedral en calle 24 de Septiembre 420</h4>
+    <img class="donde__img" src="assets/iglesia.jpg">
+    <a href="https://maps.app.goo.gl/bcxNqtiMdqPF7zGo7" class="donde__cta">Ver ubicación de la Misa</a>
+  </article>
+</div>
+
+<div class="donde__lugar">
+  <h3 class="donde__text">Fiesta</h3>
+  <article class="donde__container">
+    <h4 class="donde__subtitle">Te espero el día 30 de Diciembre del 2023 a hs 22:00 en el salón "Franchesca Eventos" en calle La Plata 2463</h4>
+    <img class="donde__img" src="assets/salon.jpg">
+    <a href="https://maps.app.goo.gl/q7zMQuxqgZsdgoEJ8" class="donde__cta">Ver ubicación del salón</a>
+  </article>
+</div>
+
+</section>
+
+<section class="itinerario">
+  <h3 class="itinerario__title">Itinerario</h3>
+  <h5 class="itinerario__subtitle">Sábado 30 Diciembre <br> <span>2023</span></h5>
+  <img class="itinerario__img" src="assets/vectores/itinerario.svg" alt="">
+</section>
+
+<section class="dresscode container" id="dresscode">
+  <h3 class="dresscode__title">Dresscode</h3>
+  <h5 class="dresscode__subtitle">♔Elegante♕</h5>
+  <h7 class="dresscode__note">Nota: No asistir con vestimentas de color celeste y lila</h7>
+  <img class="dresscode__img" src="assets/vectores/dresscode.svg">
+  <button class="dresscode__cta" id="showImage">Ver Ejemplo</button>
+
+<div id="lightbox" class="lightbox">
+  <span id="closeButton" class="close-button">&times;</span>
+  <img src="assets/drescode.jpg" alt="Imagen" />
+</div>
+
+</section>
+
+<section class="galeria-continaer">
+
+  <article class="galeria">
+
+  <a class="fotouno" href="#imagen1">
+      <img  src="assets/abby/1.jpg" alt="">
+  </a>
+  <a class="imagendos" href="#imagen2">
+      <img src="assets/abby/2.jpg" alt="">
+  </a>
+  <a class="imagentres" href="#imagen3">
+      <img src="assets/abby/3.jpg" alt="">
+  </a>
+  <a class="fotocuatro" href="#imagen4">
+      <img src="assets/abby/4.jpg" alt="">
+  </a>
+  <a class="fotocinco" href="#imagen5">
+      <img src="assets/abby/5.jpg" alt="">
+  </a>
+  <a class="fotoseis" href="#imagen6">
+      <img src="assets/abby/6.jpg" alt="">
+  </a>
+  <a href="#imagen7">
+      <img src="assets/abby/7.jpg" alt="">
+  </a>
+  <a class="fotoocho" href="#imagen8">
+      <img src="assets/abby/8.jpg" alt="">
+  </a>
+  <a class="fotonueve" href="#imagen9">
+      <img src="assets/abby/9.jpg" alt="">
+  </a>
+  <a class="fotodiez" href="#imagen10">
+      <img src="assets/abby/10.jpg" alt="">
+  </a>
+
+</article>
+</section>
+
+<article class="light-box" id="imagen1">
+  <a href="#imagen10" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/1.jpg">
+  <a href="#imagen2" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen2">
+  <a href="#imagen1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/2.jpg">
+  <a href="#imagen3" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen3">
+  <a href="#imagen2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/3.jpg">
+  <a href="#imagen4" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen4">
+  <a href="#imagen3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/4.jpg">
+  <a href="#imagen5" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen5">
+  <a href="#imagen4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/5.jpg">
+  <a href="#imagen6" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen6">
+  <a href="#imagen5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/6.jpg">
+  <a href="#imagen7" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen7">
+  <a href="#imagen6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/7.jpg">
+  <a href="#imagen8" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen8">
+  <a href="#imagen7" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/8.jpg">
+  <a href="#imagen9" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen9">
+  <a href="#imagen8" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/9.jpg">
+  <a href="#imagen10" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="imagen10">
+  <a href="#imagen9" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+  <img src="assets/abby/10.jpg">
+  <a href="#imagen1" class="next next--active"><i class="fa-solid fa-arrow-left"></i></a>
+  <a href="#" class="close">X</a>
+</article>
+
+<section class="thank container">
+  <img class="than__vector" src="assets/vectores/separador.svg" alt="">
+<p class="thank__title">Deseo expresar mi profundo agradecimiento a todos mis familiares y amigos, cuyo apoyo fue fundamental para hacer realidad este momento tan significativo en mi vida. En particular, quiero destacar el valioso sacrificio realizado por mis padres, el cual ha sido fundamental para alcanzar la noche soñada.</p>
+</section>
+
+<section class="regalos container" id="regalos">
+  <!-- <img class="than__vector" src="assets/vectores/separador.svg" alt=""> -->
+
+    <img class="regalos__corona" src="assets/vectores/coronavectores.svg" alt="">
+  <p class="regalos__text">""Quiero que sepas que tu presencia es lo más importante en mi fiesta. Si lo deseas, puedes hacerme un regalo; de lo contrario, en la entrada del salón encontrarás una urna para colocar allí tu sobrecito.""</p>
+  <!-- <button class="regalos__cta" id="mostrarBoton">Ver datos bancarios</button>
+  <div id="textoDesplegable" class="oculto">
+    <p class="regalos__data">CBU: XXXXXXXXXXXXXX-XXXXXXXX <br> ALIAS:</p>
+  </div> -->
+
+  <!-- <div class="regalos__gif">
+    <img class="regalos__img" src="assets/regalos.gif" alt="">
+  </div> -->
+
+</section>
+
+<section class="playlist container">
+  <form action="https://formsubmit.co/lmgal_luis@hotmail.com" method="POST">
+    <h3 class="playlist__title">No existe fiesta sin buena música</h3>
+    <img class="playlist__img" src="assets/vectores/dj.svg" alt="">
+    <h5 class="playlist__subtitle">➤➤Que música crees que no debería faltar? Ayúdame a elegir</h5>
+    <img class="playlist__espectro" src="assets/vectores/espectro.svg" alt="">
+    <div class="form__container">
+
+      <label class="form__name" for="">Tu Nombre</label>
+      <input type="text" id="name class" name="Musica Recomendada" class="form__input" placeholder="tu nombre">
+      
+      <label class="form__name" for="">Nombre de la cancion o link</label>
+      <input type="text" id="name class" name="Link Musica Recomendada" class="form__input" placeholder="nombre o link de la cancion">
+
+      <input class="button__cta" type="submit" value="ENVIAR">
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+ 
+      
+    </div>
+  </form>
+</section>
+
+<section class="album" id="album">
+  <div class="line"></div>
+  <h2 class="text__principal">Mi Album de fotos</h2>
+  <h3 class="album__title">
+   Quiero inmortalizar este maravilloso momento, guardando fotos y para ello tengo mi propio album digital
+  </h3>
+  <h3 class="album__subtitle">¿Tenés fotos con conmigo?</h3>
+  <img class="album__img" src="assets/vectores/soga.svg" alt="">
+  <a href="https://photos.app.goo.gl/NrB9MmXtzwdqX6op8" class="album__cta">Subilas aquí</a>
+  <h4 class="album__hastag">Ó tambien compartilas en instagram con el hastag #Abby'sfifteen</h4>
+</section>
+
+<section class="confirmation container" id="confirmar">
+<img class="confirmation__img" src="assets/vectores/separador2.svg">
+<h3 class="confirmation__title">Recordá que tenes hasta el día 15 de Diciembre del 2023 para confirmar tu presencia <br> Tambien te pedimos por favor si tienes alguna restricción alimenticia nos avises</h3>
+
+<a class="confirmation__cta" href="https://wa.link/9wudta">
+  <img class="confirmation__whatsapp" src="assets/vectores/whatsapp_redondo.svg">Confirmar Presencia</a>
+
+
+</section>
+
+<!-- <section class="title__correo">
+<h3 class="confirmation__title">O bien si queres, tambien podes confirmar tu presencia por correo electrónico</h3>
+<img class="confirmation__vector" src="assets/vectores/avioncito.svg" alt="">
+</section>
+
+<section class="formulario container">
+  <form action="https://formsubmit.co/lmgal_luis@hotmail.com" method="POST" class="form">
+
+    <h3 class="form__title">Escribeme</h3>
+    <p class="form__paragraph">Estoy esperando con ansias que llegue mi noche soñada</p>
+
+    <label for="">Escribe tu nombre</label>
+    <input type="text" name="Nombre" class="form__form" placeholder="Tu nombre...">
+
+    <label for="">Escribe tu email</label>
+    <input type="email" name="email" class="form__form" placeholder="Tu email...">
+
+    <label for="">Escribe tu mensaje</label>
+    <textarea name="mensaje" class="form__form form__form--active" placeholder="ejemplo: Hola Martina, por supuesto que voy a tu fiesta"></textarea>
+
+    <input type="submit" value="Enviar mensaje" class="submit">
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+  </form>
+
+  <div class="form__picture">
+    <img src="assets/vectores/15años.svg" alt="">
+  </div>
+
+
+  </div>
+
+</section> -->
+
+<section class="footer">
+  <div class="ondas">
+    <div class="onda" id="onda1"></div>
+    <div class="onda" id="onda2"></div>
+    <div class="onda" id="onda3"></div>
+    <div class="onda" id="onda4"></div>
+  </div>
+  <h3 class="footer__frase">Los momentos felices de la vida se vuelven más maravillosos aún, cuando tenemos la suerte de compartirlos con los familiares y amigos más queridos... Te espero!</h3>
+</section>
+
+</main>
+
+<script src="https://kit.fontawesome.com/79ba82b44a.js" crossorigin="anonymous"></script>
+</body>
+<script src="js/js"></script>   
+
+</body>
+</html>
